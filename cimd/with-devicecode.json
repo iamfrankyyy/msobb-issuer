@@ -1,0 +1,17 @@
+{
+  "client_id": "https://iamfrankyyy.github.io/msobb-issuer/cimd/with-devicecode.json",
+  "client_name": "MSOBB CIMD with-devicecode.json",
+  "client_uri": "https://iamfrankyyy.github.io/msobb-issuer/",
+  "redirect_uris": [
+    "https://iamfrankyyy.github.io/msobb-issuer/cimd/cb"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:device_code"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
