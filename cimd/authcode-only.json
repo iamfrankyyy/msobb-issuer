@@ -1,0 +1,16 @@
+{
+  "client_id": "https://iamfrankyyy.github.io/msobb-issuer/cimd/authcode-only.json",
+  "client_name": "MSOBB CIMD authcode-only.json",
+  "client_uri": "https://iamfrankyyy.github.io/msobb-issuer/",
+  "redirect_uris": [
+    "https://iamfrankyyy.github.io/msobb-issuer/cimd/cb"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
