@@ -1,0 +1,17 @@
+{
+  "client_id": "https://iamfrankyyy.github.io/msobb-issuer/cimd/redirect-probe.json",
+  "client_name": "MSOBB CIMD redirect probe",
+  "redirect_uris": [
+    "http://localhost/callback",
+    "http://127.0.0.1/callback",
+    "https://iamfrankyyy.github.io/msobb-issuer/cimd/cb"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
